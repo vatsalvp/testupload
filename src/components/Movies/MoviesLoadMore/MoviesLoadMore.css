@@ -1,0 +1,103 @@
+.tv{
+    background: #0a0e17;
+    /* padding: 90px 0 60px 0px; */
+}
+.tvshow-background{
+    background: url('../../../assests/asset-25.jpg');
+    color: #fff;
+    width: 100%;
+    padding: 90px 0;
+    text-align: center;
+    padding-top: 117px;
+    position: relative;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+.tvshow-background:first-child:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #182031;
+    opacity: 0.9;
+}
+ .moviepage-title h1 {
+     position: relative;
+    font-size: 56px;
+    line-height: 64px;
+    margin-bottom: 15px;
+    color: #fff !important;
+}
+.moviepage-container{
+    display: inline-block;
+    position: relative;
+}
+.moviepage-container .breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+.moviepage-container .breadcrumb li {
+    text-transform: capitalize;
+    list-style-type: none;
+    margin-right: 15px;
+    padding-left: 0;
+    align-items: center;
+}
+.moviepage-container .breadcrumb li a {
+    color:#fff !important;
+    text-decoration: none;
+}
+.fa, .fas {
+    font-weight: 900;
+    margin-right: 5px;
+}
+.moviepage-container .breadcrumb li.active {
+    color: #3f9fff;
+}
+/* {
+    padding: 90px 0px 90px 0px;
+} */
+.single-info a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.single-image{
+    height: 227px;
+}
+.single-image img {
+    width: 100%;
+    height: 100%;
+}
+.single-gallery-contain .single-image .first-images {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .single-gallery-contain:hover .single-image .first-images {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+/* .single-image img{
+    height: 100%;
+    width: 100%;
+} */
+.play img{
+    width: auto;
+    height: auto;
+}
+.single-gallery-contain .movie-icons{
+    height: 0;
+}
+.single-load-more-button{
+    padding-bottom: 20px;
+}
+@media screen and (max-width:1024px) {
+    .single-image {
+        height: 160px;
+    }
+    
+}

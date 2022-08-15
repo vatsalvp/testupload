@@ -1,0 +1,9 @@
+.data-content{
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    background: #182031;
+}
+.movie .movie-icons{
+    height: 0;
+}
